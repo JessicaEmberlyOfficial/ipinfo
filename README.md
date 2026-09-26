@@ -1,10 +1,10 @@
 # ipinfo
 A tool for IP information gathering.
 
-# Requirements
+## Requirements
 * Python
 
-# Usage
+## Usage
 ```
 git clone https://github.com/JessicaEmberlyOfficial/ipinfo/
 ```
