@@ -16,3 +16,6 @@ IsVPN?: """ + str({data['risk']['is_vpn']}) + """
 IsTor?: """ + str({data['risk']['is_tor']}) + """
 IsProxy?: """ + str({data['risk']['is_proxy']}) + """
 Risk Score: """ + str({data['risk']['risk_score']}))
+isBot = requests.get("https://is.bot?" + ip)
+data1 = isBot.json()
+print("IsBot?: " + data1)
